@@ -1,7 +1,7 @@
 <?
 require_once( "php/facebook.php" );
-$api_key = "507957205912917";
-$secret = "61068c44787488d87719b15c3f6b2032";
+$api_key = "252281701570510";
+$secret = "d63572dd7bd3f9429a434a26bf63363b";
 
 $facebook = new Facebook( $api_key, $secret );
 $user_id = $facebook->require_login();
